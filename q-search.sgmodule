@@ -94,12 +94,12 @@
 # trj  (Google 译至日)
 ^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
 
-#dec(deepl 英至汉)
+#dec(deepl 英汉-汉英)
 ^https:\/\/duckduckgo.com\/\?q=dec\+([^&]+).+ https://dict.deepl.com/english-chinese/search?source=auto&query=$1 302
 
-#dee(deepl 汉至英)
+#dej(deepl 英至日)
 
-^https:\/\/duckduckgo.com\/\?q=dee\+([^&]+).+ https://dict.deepl.com/chinese-english/search?source=auto&query=$1 302
+^https:\/\/duckduckgo.com\/\?q=dej\+([^&]+).+ https://dict.deepl.com/english-japanese/search?source=auto&query=$1 302
 
 # 社区
 
