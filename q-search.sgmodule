@@ -95,7 +95,7 @@
 ^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
 
 #det(deepl 汉至英)
-^https:\/\/duckduckgo.com\/\?q=det\+([^&]+).+ url https://dict.deepl.com/english-chinese/search?source=auto&query=$1 302
+^https:\/\/duckduckgo.com\/\?q=det\+([^&]+).+ https://dict.deepl.com/english-chinese/search?source=auto&query=$1 302
 
 
 # 社区
