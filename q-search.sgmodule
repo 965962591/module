@@ -63,7 +63,8 @@
 # ddg：DuckDuckGo 搜索
 # 无指令则转 Google 搜索
 
-
+#其他搜搜
+# xmp：小马盘网盘搜索
 
 [URL Rewrite]
 
@@ -215,8 +216,11 @@
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 
+#小马盘（网盘资源搜索）
+^https:\/\/duckduckgo.com\/\?q=xmp\+([^&]+).+ https://xiaomapan.com/search?keyword=$1 302
 
-
+#雨花阁（磁力链接搜索）
+^https:\/\/duckduckgo.com\/\?q=yhg\+([^&]+).+ https://www.yhgcc.xyz/search/$1-1.html 302
 
 
 
