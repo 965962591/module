@@ -44,6 +44,7 @@
 # jd: 京东
 # tb: 淘宝
 # tm: 天猫
+# sn: 苏宁
 
 # ac:  Acfun
 # bli: 哔哩哔哩
@@ -151,6 +152,9 @@
 
 # tm: 天猫
 ^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://s.m.tmall.com/m/search.htm?q=$1 302
+
+#sn : 苏宁
+^https:\/\/duckduckgo.com\/\?q=sn\+([^&]+).+ https://search.suning.com/$1 302
 
 # 视频资源
 
