@@ -45,7 +45,7 @@
 # tb: 淘宝
 # tm: 天猫
 # sn: 苏宁
-#pdd: 拼夕夕
+#pdd: 拼爹爹
 
 # ac:  Acfun
 # bli: 哔哩哔哩
@@ -157,7 +157,7 @@
 #sn : 苏宁
 ^https:\/\/duckduckgo.com\/\?q=sn\+([^&]+).+ https://m.suning.com/search/$1 302
 
-#pdd: 拼夕夕
+#pdd: 拼爹爹
 ^https:\/\/duckduckgo.com\/\?q=pdd\+([^&]+).+ http://yangkeduo.com/search_result.html?search_key=$1 302
 
 # 视频资源
