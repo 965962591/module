@@ -158,7 +158,7 @@
 ^https:\/\/duckduckgo.com\/\?q=sn\+([^&]+).+ https://m.suning.com/search/$1 302
 
 #pdd: 拼夕夕
-^https:\/\/duckduckgo.com\/\?q=sn\+([^&]+).+ http://yangkeduo.com/search_result.html?search_key=$1 302
+^https:\/\/duckduckgo.com\/\?q=pdd\+([^&]+).+ http://yangkeduo.com/search_result.html?search_key=$1 302
 
 # 视频资源
 
