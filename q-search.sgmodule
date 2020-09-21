@@ -156,7 +156,7 @@
 ^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://s.m.tmall.com/m/search.htm?q=$1 302
 
 #sn : 苏宁
-^https:\/\/duckduckgo.com\/\?q=sn\+([^&]+).+ https://m.suning.com/search/$1 302
+^https:\/\/duckduckgo.com\/\?q=sn\+([^&]+).+ https://m.suning.com/search/$1/&jlftownCode=5660118 302
 
 #pdd: 拼爹爹
 ^https:\/\/duckduckgo.com\/\?q=pdd\+([^&]+).+ http://yangkeduo.com/search_result.html?search_key=$1 302
