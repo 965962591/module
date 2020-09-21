@@ -56,6 +56,7 @@
 # gd:  Google Drive资源
 # tgd: TG搜索Google Drive资源
 # qm: QQ音乐搜索
+# yfs:音范丝搜索
  
 # bi: 必应
 # bd：百度搜索
@@ -194,6 +195,9 @@
 
 # tgd  (t.me/gdurl 搜索 Google Drive 资源)
 ^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
+
+# yfs:音范丝搜索
+^https:\/\/duckduckgo.com\/\?q=yfs\+([^&]+).+ http://www.yinfans.me/?s=$1 302
 
 
 
