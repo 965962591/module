@@ -39,6 +39,7 @@
 # rd: Reddit
 # ssp: 少数派
 # csdn: CSDN
+# blog: 博客园搜索
 
 # zdm: 什么值得买
 # amz: 亚马逊
@@ -140,6 +141,10 @@
 
 # csdn: CSDN
 ^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
+
+# blog: 博客园
+^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://zzk.cnblogs.com/s?w=$1 302
+
 
 # > 购物
 # zdm: 什么值得买
