@@ -200,6 +200,12 @@
 # yfs:音范丝搜索
 ^https:\/\/duckduckgo.com\/\?q=yfs\+([^&]+).+ http://www.yinfans.me/?s=$1 302
 
+#小马盘（网盘资源搜索）
+^https:\/\/duckduckgo.com\/\?q=xmp\+([^&]+).+ https://xiaomapan.com/search?keyword=$1 302
+
+#雨花阁（磁力链接搜索）
+^https:\/\/duckduckgo.com\/\?q=yhg\+([^&]+).+ https://www.yhgcc.xyz/search/$1-1.html 302
+
 
 
 # 默认搜索
@@ -214,13 +220,6 @@
 
 # 无指令: 谷歌
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
-
-
-#小马盘（网盘资源搜索）
-^https:\/\/duckduckgo.com\/\?q=xmp\+([^&]+).+ https://xiaomapan.com/search?keyword=$1 302
-
-#雨花阁（磁力链接搜索）
-^https:\/\/duckduckgo.com\/\?q=yhg\+([^&]+).+ https://www.yhgcc.xyz/search/$1-1.html 302
 
 
 
