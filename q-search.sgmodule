@@ -143,7 +143,7 @@
 ^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
 
 # blog: 博客园
-^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://zzk.cnblogs.com/s?w=$1 302
+^https:\/\/duckduckgo.com\/\?q=blog\+([^&]+).+ https://zzk.cnblogs.com/s?w=$1 302
 
 
 # > 购物
