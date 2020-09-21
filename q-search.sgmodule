@@ -24,7 +24,11 @@
 # trc: Google 译至中
 # tre: Google 译至英
 # trj: Google 译至日
-# tde：Deepl  译至中
+# tdc: Deepl  英译中
+# tde：Deepl  中译英
+# tdj: Deepl  中译日
+# tdjc:Deepl  日译中
+
 
 
 # db：豆瓣搜索
@@ -94,14 +98,17 @@
 # trj  (Google 译至日)
 ^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
 
-#dec(deepl 英译汉)
+#dec(deepl 英译中)
 ^https:\/\/duckduckgo.com\/\?q=dec\+([^&]+).+ https://www.deepl.com/translator#en/zh/$1 302
 
-#dee(deepl 汉英译)
+#dee(deepl 中译英)
 ^https:\/\/duckduckgo.com\/\?q=dec\+([^&]+).+ https://www.deepl.com/translator#zh/en/$1 302
 
-#dej(deepl 英至日)
+#dej(deepl 中译日)
 ^https:\/\/duckduckgo.com\/\?q=dej\+([^&]+).+ https://www.deepl.com/translator#zh/ja/$1 302
+
+#dej(deepl 日译中)
+^https:\/\/duckduckgo.com\/\?q=dejc\+([^&]+).+ https://www.deepl.com/translator#ja/zh/$1 302
 
 # 社区
 
