@@ -53,6 +53,7 @@
 # pdd: 拼爹爹
 # mt: 美团
 # elm: 饿了么
+# didi: 滴滴出行
 
 # ac:  Acfun
 # bli: 哔哩哔哩
@@ -192,6 +193,9 @@
 
 #elm: 饿了么
 ^https:\/\/duckduckgo.com\/\?q=elm\+([^&]+).+ https://h5.ele.me/search/#/shop?keyword=$1&isShow=true 302
+
+#didi:滴滴出行
+^https:\/\/duckduckgo.com\/\?q=didi\+([^&]+).+ https://common.diditaxi.com.cn/general/webEntry?wx=true#/ 302
 
 
 
