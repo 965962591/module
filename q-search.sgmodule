@@ -13,6 +13,8 @@
 # 可自行修改指令或者添加搜索引擎
 
 # gh：  GitHub搜索
+# git: Gitee搜索项目
+# gitc: Gitee搜索源码
 # gm：  Google图片搜索
 # sof:  Stack Overflow
 # se:   StackExchange
@@ -71,8 +73,15 @@
 
 #gm   (Google图片)
 ^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+
 # gh   (GitHub)
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+
+# git (gitee搜项目)
+^https:\/\/duckduckgo.com\/\?q=git\+([^&]+).+ https://search.gitee.com/?skin=rec&type=repository&q=$1repo=&reponame=
+
+# gitc (gitee搜源码)
+^https:\/\/duckduckgo.com\/\?q=gitc\+([^&]+).+ https://search.gitee.com/?skin=rec&type=code&q=$1 302
 
 # sof  (Stack Overflow)
 ^https:\/\/duckduckgo.com\/\?q=sof\+([^&]+).+ https://stackoverflow.com/search?q=$1 302
