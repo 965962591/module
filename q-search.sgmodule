@@ -52,6 +52,7 @@
 # sn: 苏宁
 # pdd: 拼爹爹
 # mt: 美团
+# elm: 饿了么
 
 # ac:  Acfun
 # bli: 哔哩哔哩
@@ -188,6 +189,12 @@
 
 #mt: 美团
 ^https:\/\/duckduckgo.com\/\?q=mt\+([^&]+).+ https://h5.waimai.meituan.com/waimai/mindex/searchresults?queryType=12002&keyword=$1&entranceId=0&qwTypeId=11002&mode=search 302
+
+#elm: 饿了么
+^https:\/\/duckduckgo.com\/\?q=elm\+([^&]+).+ https://h5.ele.me/search/#/shop?keyword=$1&isShow=true 302
+
+
+
 
 # 视频资源
 
