@@ -78,7 +78,7 @@
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
 
 # git (gitee搜项目)
-^https:\/\/duckduckgo.com\/\?q=git\+([^&]+).+ https://search.gitee.com/?skin=rec&type=repository&q=$1repo=&reponame=
+^https:\/\/duckduckgo.com\/\?q=git\+([^&]+).+ https://search.gitee.com/?skin=rec&type=repository&q=$1 302
 
 # gitc (gitee搜源码)
 ^https:\/\/duckduckgo.com\/\?q=gitc\+([^&]+).+ https://search.gitee.com/?skin=rec&type=code&q=$1 302
