@@ -47,7 +47,7 @@
 # tb: 淘宝
 # tm: 天猫
 # sn: 苏宁
-#pdd: 拼爹爹
+# pdd: 拼爹爹
 
 # ac:  Acfun
 # bli: 哔哩哔哩
@@ -56,15 +56,15 @@
 # gd:  Google Drive资源
 # tgd: TG搜索Google Drive资源
 # qm: QQ音乐搜索
-# yfs:音范丝搜索
+# yfs：音范丝搜索
+# xmp：小马盘搜索
  
 # bi: 必应
 # bd：百度搜索
 # ddg：DuckDuckGo 搜索
 # 无指令则转 Google 搜索
 
-#其他搜搜
-# xmp：小马盘网盘搜索
+
 
 [URL Rewrite]
 
@@ -203,8 +203,6 @@
 #小马盘（网盘资源搜索）
 ^https:\/\/duckduckgo.com\/\?q=xmp\+([^&]+).+ https://xiaomapan.com/search?keyword=$1 302
 
-#雨花阁（磁力链接搜索）
-^https:\/\/duckduckgo.com\/\?q=yhg\+([^&]+).+ https://www.yhgcc.xyz/search/$1-1.html 302
 
 
 
