@@ -51,6 +51,7 @@
 # tm: 天猫
 # sn: 苏宁
 # pdd: 拼爹爹
+# mt: 美团
 
 # ac:  Acfun
 # bli: 哔哩哔哩
@@ -184,6 +185,9 @@
 
 #pdd: 拼爹爹
 ^https:\/\/duckduckgo.com\/\?q=pdd\+([^&]+).+ http://yangkeduo.com/search_result.html?search_key=$1 302
+
+#mt: 美团
+^https:\/\/duckduckgo.com\/\?q=pdd\+([^&]+).+ https://h5.waimai.meituan.com/waimai/mindex/searchresults?queryType=12002&keyword=$1&entranceId=0&qwTypeId=11002&mode=search 302
 
 # 视频资源
 
