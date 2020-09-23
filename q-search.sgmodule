@@ -181,6 +181,9 @@
 # yh: 油猴搜索
 ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
 
+#api: 开发文档搜索
+^https:\/\/duckduckgo.com\/\?q=api\+([^&]+).+ https://devdocs.io/#q=$1 302
+
 # linux linux命令
 ^https:\/\/duckduckgo.com\/\?q=linux\+([^&]+).+ https://wangchujiang.com/linux-command/list.html#!kw=$1 302
 
