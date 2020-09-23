@@ -22,6 +22,7 @@
 # wk:   维基中文
 # mg:   Magi
 # tf:   Google 搜索 TestFlight
+# wenku: 百度文库搜索
 
 # yd：有道词典搜索
 # trc: Google 译至中
@@ -123,6 +124,9 @@
 
 # tf  (Google 搜索 TestFlight)
 ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
+
+#wenku 百度文库搜索
+^https:\/\/duckduckgo.com\/\?q=wenku(\+|%20)([^&]+).+ https://wenku.baidu.com/search?word=$1 302
 
 # > 翻译
 # yd   (有道)
