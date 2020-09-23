@@ -23,6 +23,7 @@
 # mg:   Magi
 # tf:   Google 搜索 TestFlight
 # wenku: 百度文库搜索
+# tieba: 百度贴吧搜索（tieba 吧名）
 
 # yd：有道词典搜索
 # trc: Google 译至中
@@ -127,6 +128,12 @@
 
 #wenku 百度文库搜索
 ^https:\/\/duckduckgo.com\/\?q=wenku(\+|%20)([^&]+).+ https://wenku.baidu.com/search?word=$1 302
+
+#tieba 百度贴吧搜索
+^https:\/\/duckduckgo.com\/\?q=tieba(\+|%20)([^&]+).+ https://tieba.baidu.com/f?ie=utf-8&kw=$1 302
+ 
+
+
 
 # > 翻译
 # yd   (有道)
