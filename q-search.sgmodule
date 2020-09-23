@@ -67,6 +67,12 @@
 # qm: QQ音乐搜索
 # yfs：音范丝搜索
 # xmp：小马盘搜索
+
+
+# gdb: 古丁堡图书
+# linux: linux命令
+# paper: connectedpapers
+
  
 # bi: 必应
 # bd：百度搜索
@@ -173,9 +179,10 @@
 ^https:\/\/duckduckgo.com\/\?q=linux\+([^&]+).+ https://wangchujiang.com/linux-command/list.html#!kw=$1 302
 
 # gdb: 古丁堡图书
-^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ http://www.gutenberg.org/ebooks/search/?query=$1 302
+^https:\/\/duckduckgo.com\/\?q=gdb\+([^&]+).+ http://www.gutenberg.org/ebooks/search/?query=$1 302
 
-
+# paper: connectedpapers
+^https:\/\/duckduckgo.com\/\?q=paper\+([^&]+).+ https://www.connectedpapers.com/search?q=$1 302
 
 
 # > 购物
