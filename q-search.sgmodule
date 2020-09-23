@@ -23,7 +23,7 @@
 # mg:   Magi
 # tf:   Google 搜索 TestFlight
 # wenku: 百度文库搜索
-# tieba: 百度贴吧搜索（tieba 吧名）
+
 
 # yd：有道词典搜索
 # trc: Google 译至中
@@ -42,11 +42,12 @@
 # wx: 微信
 # rd: Reddit
 # ssp: 少数派
+# tieba: 百度贴吧搜索（tieba 吧名）
 # csdn: CSDN
 # blog: 博客园搜索
 # yh: 油猴搜索
 
-# api:Devdocs开发文档的搜索(eg: api json)
+
 
 # zdm: 什么值得买
 # amz: 亚马逊
@@ -61,6 +62,9 @@
 # elm: 饿了么
 # didi: 滴滴出行
 
+
+#资源
+
 # ac:  Acfun
 # bli: 哔哩哔哩
 # ytb: YouTube
@@ -73,6 +77,7 @@
 # xmp：小马盘搜索
 
 
+
 # gdb: 古丁堡图书
 # linux: linux命令
 # paper: connectedpapers
@@ -81,7 +86,7 @@
 # tq: 天气（彩云天气)
 # om: ourmacs搜索(mac软件)
 # macw: macw搜索(mac软件)
-
+# api:Devdocs开发文档的搜索(eg: api json)
 
  
 # bi: 必应
