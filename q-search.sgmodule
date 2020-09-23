@@ -72,6 +72,7 @@
 # gdb: 古丁堡图书
 # linux: linux命令
 # paper: connectedpapers
+# cai : 菜鸟教程
 
  
 # bi: 必应
@@ -183,6 +184,13 @@
 
 # paper: connectedpapers
 ^https:\/\/duckduckgo.com\/\?q=paper\+([^&]+).+ https://www.connectedpapers.com/search?q=$1 302
+
+# cai 菜鸟教程
+^https:\/\/duckduckgo.com\/\?q=cai\+([^&]+).+ https://www.runoob.com/?s=$1 302
+
+
+
+
 
 
 # > 购物
