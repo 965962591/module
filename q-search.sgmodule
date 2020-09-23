@@ -194,7 +194,7 @@
 ^https:\/\/duckduckgo.com\/\?q=kd\+([^&]+).+ https://m.kuaidi100.com/result.jsp?nu=$1 302
 
 # tq:天气查询
-^https:\/\/duckduckgo.com\/\?q=tq\+([^&]+).+ https://caiyunapp.com/weather/$1 302
+^https:\/\/duckduckgo.com\/\?q=tq\+([^&]+).+ https://caiyunapp.com/weather/ 302
 
 
 
