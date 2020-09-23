@@ -75,6 +75,8 @@
 # cai: 菜鸟教程
 # kd: 快递查询(加上快递号即可)
 # tq: 天气（彩云天气)
+# om: ourmacs搜索
+
 
  
 # bi: 必应
@@ -196,6 +198,9 @@
 # tq:天气查询
 ^https:\/\/duckduckgo.com\/\?q=tq\+([^&]+).+ https://caiyunapp.com/weather/ 302
 
+
+# om:ourmacs搜软件
+^https:\/\/duckduckgo.com\/\?q=om\+([^&]+).+ https://ourmacs.com/search/apps?q=$1 302
 
 
 
