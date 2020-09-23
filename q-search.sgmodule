@@ -203,7 +203,7 @@
 ^https:\/\/duckduckgo.com\/\?q=om\+([^&]+).+ https://ourmacs.com/search/apps?q=$1 302
 
 # macw: macw搜mac软件
-^https:\/\/duckduckgo.com\/\?q=macw\+([^&]+).+ https://m.macw.com/search/all_$1.html
+^https:\/\/duckduckgo.com\/\?q=macw\+([^&]+).+ https://m.macw.com/search/all_$1.html 302
 
 
 
