@@ -23,6 +23,7 @@
 # mg:   Magi
 # tf:   Google 搜索 TestFlight
 # wen: 百度文库搜索
+# tie: 百度贴吧
 
 
 # yd：有道词典搜索
@@ -132,7 +133,10 @@
 ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
 
 #wen 百度文库搜索
-^https:\/\/duckduckgo.com\/\?q=wen(\+|%20)([^&]+).+ https://wk.baidu.com/search?fr=searchpage&word=$1 302
+^https:\/\/duckduckgo.com\/\?q=wen\+([^&]+).+ https://wk.baidu.com/search?fr=searchpage&word=$1 302
+
+#tie 百度贴吧
+^https:\/\/duckduckgo.com\/\?q=tie\+([^&]+). https://tieba.baidu.com/mo/q/m?word=$1&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn=0& 302
 
  
 
