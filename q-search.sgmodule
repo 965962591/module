@@ -136,7 +136,7 @@
 ^https:\/\/duckduckgo.com\/\?q=wen\+([^&]+).+ https://wk.baidu.com/search?fr=searchpage&word=$1 302
 
 #tie 百度贴吧
-^https:\/\/duckduckgo.com\/\?q=tie\+([^&]+). https://tieba.baidu.com/mo/q/m?word=$1&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn=0& 302
+^https:\/\/duckduckgo.com\/\?q=tie\+([^&]+).+ https://tieba.baidu.com/mo/q/m?word=$1&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn=0& 302
 
  
 
