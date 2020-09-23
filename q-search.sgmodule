@@ -62,6 +62,7 @@
 # ytb: YouTube
 # ph:  PornHub 
 # gd:  Google Drive资源
+# zp:  Google Drive资源搜索（zhao.pp.ua)
 # tgd: TG搜索Google Drive资源
 # qm: QQ音乐搜索
 # yfs：音范丝搜索
@@ -163,8 +164,17 @@
 # blog: 博客园
 ^https:\/\/duckduckgo.com\/\?q=blog\+([^&]+).+ https://zzk.cnblogs.com/s?w=$1 302
 
+#命令
+
 # yh: 油猴搜索
 ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ https://greasyfork.org/zh-CN/scripts?q=$1 302
+
+# linux linux命令
+^https:\/\/duckduckgo.com\/\?q=linux\+([^&]+).+ https://wangchujiang.com/linux-command/list.html#!kw=$1 302
+
+# gdb: 古丁堡图书
+^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ http://www.gutenberg.org/ebooks/search/?query=$1 302
+
 
 
 
@@ -230,6 +240,9 @@
 
 # gd  (Google Drive)
 ^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
+
+# zp (Google Drive)
+^https:\/\/duckduckgo.com\/\?q=zp\+([^&]+).+ https://zhao.pp.ua/?q=$1&version=1.0.1 302
 
 # tgd  (t.me/gdurl 搜索 Google Drive 资源)
 ^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
