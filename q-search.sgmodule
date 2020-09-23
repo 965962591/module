@@ -52,6 +52,7 @@
 # sn: 苏宁
 # pdd: 拼爹爹
 # gmdq: 国美
+# dd: 当当
 # mt: 美团
 # elm: 饿了么
 # didi: 滴滴出行
@@ -191,6 +192,9 @@
 
 #gm: 国美
 ^https:\/\/duckduckgo.com\/\?q=gmdq\+([^&]+).+ https://m.gome.com.cn/category.html?from=1&scat=2&channel=&c3ids=&key_word=$1 302
+
+#dd: 当当
+^https:\/\/duckduckgo.com\/\?q=dd\+([^&]+).+ http://search.m.dangdang.com/search.php?keyword=$1 302
 
 #mt: 美团
 ^https:\/\/duckduckgo.com\/\?q=mt\+([^&]+).+ https://h5.waimai.meituan.com/waimai/mindex/searchresults?queryType=12002&keyword=$1&entranceId=0&qwTypeId=11002&mode=search 302
