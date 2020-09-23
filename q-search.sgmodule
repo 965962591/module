@@ -51,7 +51,7 @@
 # tm: 天猫
 # sn: 苏宁
 # pdd: 拼爹爹
-# gm: 国美
+# gmdq: 国美
 # mt: 美团
 # elm: 饿了么
 # didi: 滴滴出行
@@ -190,7 +190,7 @@
 ^https:\/\/duckduckgo.com\/\?q=pdd\+([^&]+).+ http://yangkeduo.com/search_result.html?search_key=$1 302
 
 #gm: 国美
-^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://m.gome.com.cn/category.html?from=1&scat=2&channel=&c3ids=&key_word=$1 302
+^https:\/\/duckduckgo.com\/\?q=gmdq\+([^&]+).+ https://m.gome.com.cn/category.html?from=1&scat=2&channel=&c3ids=&key_word=$1 302
 
 #mt: 美团
 ^https:\/\/duckduckgo.com\/\?q=mt\+([^&]+).+ https://h5.waimai.meituan.com/waimai/mindex/searchresults?queryType=12002&keyword=$1&entranceId=0&qwTypeId=11002&mode=search 302
