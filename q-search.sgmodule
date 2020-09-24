@@ -76,14 +76,12 @@
 # adm: 爱动漫(动漫bt资源搜索)
 # ytb: YouTube
 # ph:  PornHub 
-# gd:  Google Drive资源
-# zp:  Google Drive资源搜索（zhao.pp.ua)
-# tgd: TG搜索Google Drive资源
+
 # qm: QQ音乐搜索
 # kw: 酷我音乐搜索
 # kg: 酷狗音乐搜索
 # yfs：音范丝搜索
-# xmp：小马盘搜索
+
 
 
 
@@ -96,9 +94,23 @@
 # om: ourmacs搜索(mac软件)
 # macw: macw搜索(mac软件)
 # gtop: git:logs(github热门资源搜索)
-# zm: 影视字幕搜索
 # api:Devdocs开发文档的搜索(eg: api json)
 
+
+
+
+# gd:  Google Drive资源
+# zp:  Google Drive资源搜索（zhao.pp.ua)
+# tgd: TG搜索Google Drive资源
+# xmp：小马盘搜索
+#btn: bt120703搜索
+#sbt: skrbt搜索
+#dl: 大力网盘搜索
+#zm: 字幕搜索
+#zms: subhdd字幕搜索
+#zmk: 字幕库搜索
+ 
+ 
  
 # bi: 必应
 # bd：百度搜索
@@ -247,8 +259,17 @@
 # gtop: git:logs热门项目搜索
 ^https:\/\/duckduckgo.com\/\?q=gtop\+([^&]+).+ https://www.gitlogs.com/most_popular?topic=$1 302
 
+
+#字幕搜索
+
 #zm: 字幕搜索
 ^https:\/\/duckduckgo.com\/\?q=zm\+([^&]+).+ https://assrt.net/sub/?searchword=$1 302
+
+#zmk: 字幕库搜索
+^https:\/\/duckduckgo.com\/\?q=zmk\+([^&]+).+ http://www.zimuku.la/search?q=$1 302
+
+#zms: subhdd字幕搜索
+https://^https:\/\/duckduckgo.com\/\?q=zms\+([^&]+).+ ubhd.tv/search/$1 302
 
 
 
@@ -318,14 +339,19 @@
 #kw(酷我音乐)
 ^https:\/\/duckduckgo.com\/\?q=kw\+([^&]+).+ http://m.kuwo.cn/?type=all&catalog=yueku20177&key=$1 302
 
-#kg(酷狗音乐)
-
-
 # ytb  (YouTube)
 ^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
 
 # ph  (PornHub) 
 ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+
+
+# yfs:音范丝搜索
+^https:\/\/duckduckgo.com\/\?q=yfs\+([^&]+).+ http://www.yinfans.me/?s=$1 302
+
+
+#网盘资源搜索
+
 
 # gd  (Google Drive)
 ^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
@@ -336,11 +362,17 @@
 # tgd  (t.me/gdurl 搜索 Google Drive 资源)
 ^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
 
-# yfs:音范丝搜索
-^https:\/\/duckduckgo.com\/\?q=yfs\+([^&]+).+ http://www.yinfans.me/?s=$1 302
-
-#小马盘（网盘资源搜索）
+#xmp（小马网盘资源搜索）
 ^https:\/\/duckduckgo.com\/\?q=xmp\+([^&]+).+ https://xiaomapan.com/search?keyword=$1 302
+
+#dl (大力网盘搜索)
+^https:\/\/duckduckgo.com\/\?q=dl\+([^&]+).+ https://www.dalipan.com/search?keyword=$1 302
+
+#sbt (skrbt搜索)
+^https:\/\/duckduckgo.com\/\?q=sbt\+([^&]+).+ https://skrbt59.icu/search?keyword=$1 302
+
+#btn (bt120703搜索)
+^https:\/\/duckduckgo.com\/\?q=btn\+([^&]+).+ https://bt120703.xyz/search?keyword=$1 302
 
 
 
