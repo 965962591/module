@@ -20,6 +20,7 @@
 # sof:  Stack Overflow
 # se:   StackExchange
 # wa:   wolframalpha搜索
+# dg:   多吉搜索
 # wiki: 维基百科
 # wk:   维基中文
 # mg:   Magi
@@ -122,6 +123,9 @@
 
 # wa  (WolframAlpha)
 ^https:\/\/duckduckgo.com\/\?q=wa\+([^&]+).+ https://www.wolframalpha.com/input/?i=$1 302
+
+# dg (dogedoge)
+^https:\/\/duckduckgo.com\/\?q=dg\+([^&]+).+ https://www.dogedoge.com/results?q=$1 302
 
 # wiki  (维基百科)
 ^https:\/\/duckduckgo.com\/\?q=wiki(\+|%20)([^&]+).+ http://wikipedia.org/wiki/$2 302
