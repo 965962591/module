@@ -91,6 +91,7 @@
 # om: ourmacs搜索(mac软件)
 # macw: macw搜索(mac软件)
 # gtop: git:logs(github热门资源搜索)
+# zm: 影视字幕搜索
 # api:Devdocs开发文档的搜索(eg: api json)
 
  
@@ -237,6 +238,9 @@
 
 # gtop: git:logs热门项目搜索
 ^https:\/\/duckduckgo.com\/\?q=gtop\+([^&]+).+ https://www.gitlogs.com/most_popular?topic=$1 302
+
+#zm: 字幕搜索
+^https:\/\/duckduckgo.com\/\?q=zm\+([^&]+).+ https://assrt.net/sub/?searchword=$1 302
 
 
 
