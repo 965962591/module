@@ -369,10 +369,10 @@ https://^https:\/\/duckduckgo.com\/\?q=zms\+([^&]+).+ https://subhd.tv/search/$1
 ^https:\/\/duckduckgo.com\/\?q=dl\+([^&]+).+ https://www.dalipan.com/search?keyword=$1 302
 
 #sbt (skrbt搜索)
-^https:\/\/duckduckgo.com\/\?q=sbt\+([^&]+).+ https://skrbt59.icu/search?keyword=$1 302
+^https:\/\/duckduckgo.com\/\?q=sbt\+([^&]+).+ https://skrbt59.icu/search?keyword=$1 307
 
 #btn (bt120703搜索)
-^https:\/\/duckduckgo.com\/\?q=btn\+([^&]+).+ https://bt120703.xyz/search?keyword=$1 302
+^https:\/\/duckduckgo.com\/\?q=btn\+([^&]+).+ https://bt120703.xyz/search?keyword=$1 307
 
 
 
