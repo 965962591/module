@@ -269,7 +269,7 @@
 ^https:\/\/duckduckgo.com\/\?q=zmk\+([^&]+).+ http://www.zimuku.la/search?q=$1 302
 
 #zms: subhdd字幕搜索
-https://^https:\/\/duckduckgo.com\/\?q=zms\+([^&]+).+ ubhd.tv/search/$1 302
+https://^https:\/\/duckduckgo.com\/\?q=zms\+([^&]+).+ https://subhd.tv/search/$1 302
 
 
 
