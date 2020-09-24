@@ -140,7 +140,7 @@
 ^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
 # how (wikihow)
-^https:\/\/duckduckgo.com\/\?q=how(\+|%20)([^&]+).+ https://zh.wikihow.com/$2 302
+^https:\/\/duckduckgo.com\/\?q=how\+([^&]+).+ https://zh.wikihow.com/wikiHowTo?search=$1 302
 
 # mg  (Magi)
 ^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2 302
