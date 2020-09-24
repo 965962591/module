@@ -5,7 +5,7 @@
 
 # Q-Search 
 # Modified by nzw9314
-#部分数搜索资源来自：黑洞资源笔记（thanks）
+#部分数搜索资源来自：黑洞资源笔记和快搜（thanks）
 
 # - Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
 
@@ -72,6 +72,7 @@
 # ac:  Acfun
 # bli: 哔哩哔哩
 # dm: 简单动漫搜索
+# adm: 爱动漫(动漫bt资源搜索)
 # ytb: YouTube
 # ph:  PornHub 
 # gd:  Google Drive资源
@@ -298,6 +299,9 @@
 
 # dm (简单动漫资源搜索)
 ^https:\/\/duckduckgo.com\/\?q=dm\+([^&]+).+ https://www.36dm.club/search.php?keyword=$1 302
+
+# adm (爱动漫bt资源搜索)
+^https:\/\/duckduckgo.com\/\?q=adm\+([^&]+).+ http://m.kisssub.org/search.php?keyword=$1 302
 
 #nm(网易云音乐 不可用)
 #^https:\/\/duckduckgo.com\/\?q=nm\+([^&]+).+ https://music.163.com/#/search/m/?s=$1 302
