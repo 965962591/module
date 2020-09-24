@@ -103,8 +103,6 @@
 # zp:  Google Drive资源搜索（zhao.pp.ua)
 # tgd: TG搜索Google Drive资源
 # xmp：小马盘搜索
-#btn: bt120703搜索
-#sbt: skrbt搜索
 #dl: 大力网盘搜索
 #zm: 字幕搜索
 #zms: subhdd字幕搜索
@@ -368,11 +366,6 @@
 #dl (大力网盘搜索)
 ^https:\/\/duckduckgo.com\/\?q=dl\+([^&]+).+ https://www.dalipan.com/search?keyword=$1 302
 
-#sbt (skrbt搜索)
-^https:\/\/duckduckgo.com\/\?q=sbt\+([^&]+).+ https://skrbt59.icu/search?keyword=$1 301
-
-#btn (bt120703搜索)
-^https:\/\/duckduckgo.com\/\?q=btn\+([^&]+).+ https://bt120703.xyz/search?keyword=$1 301
 
 
 
