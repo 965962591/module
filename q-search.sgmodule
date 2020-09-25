@@ -8,10 +8,10 @@
 #部分数搜索资源来自：黑洞资源笔记和快搜（thanks）
 
 # - Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
-
 #  注：先进入设置更改 Safari 默认搜索为 DuckDuckGO
-
 # 可自行修改指令或者添加搜索引擎
+
+
 
 # gh：  GitHub搜索
 # git: Gitee搜索项目
@@ -28,6 +28,7 @@
 # tf:   Google 搜索 TestFlight
 # bdwk: 百度文库搜索
 # bdtb: 百度贴吧
+
 
 
 # yd：有道词典搜索
@@ -68,8 +69,6 @@
 # didi: 滴滴出行
 
 
-#资源
-
 # ac:  Acfun
 # bli: 哔哩哔哩
 # dm: 简单动漫搜索
@@ -81,7 +80,6 @@
 # kw: 酷我音乐搜索
 # kg: 酷狗音乐搜索
 # yfs：音范丝搜索
-
 
 
 
@@ -98,7 +96,6 @@
 
 
 
-
 # gd:  Google Drive资源
 # zp:  Google Drive资源搜索（zhao.pp.ua)
 # tgd: TG搜索Google Drive资源
@@ -107,6 +104,11 @@
 #zm: 字幕搜索
 #zms: subhdd字幕搜索
 #zmk: 字幕库搜索
+ 
+ 
+ 
+# csx: CiteSeerX搜索
+# ft:  findarticles搜索
  
  
  
@@ -344,12 +346,26 @@
 ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 
 
-# yfs:音范丝搜索
+# yfs 音范丝搜索
 ^https:\/\/duckduckgo.com\/\?q=yfs\+([^&]+).+ http://www.yinfans.me/?s=$1 302
 
 
-#网盘资源搜索
 
+
+#学术
+
+#csx(citeSeerX)
+^https:\/\/duckduckgo.com\/\?q=csx\+([^&]+).+ http://citeseerx.ist.psu.edu/search?q=$1 302
+
+#ft (findarticles)
+^https:\/\/duckduckgo.com\/\?q=ft\+([^&]+).+ http://findarticles.com/find?q=$1 302
+
+
+
+
+
+
+#网盘资源搜索
 
 # gd  (Google Drive)
 ^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
