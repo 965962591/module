@@ -85,6 +85,7 @@
 
 # gdb: 古丁堡图书
 # bk: TheFuture图书搜索
+# syb: 时宜搜书
 # linux: linux命令
 # paper: connectedpapers
 # cai: 菜鸟教程
@@ -242,6 +243,9 @@
 
 # bk: TheFuture图书搜索
 ^https:\/\/duckduckgo.com\/\?q=bk\+([^&]+).+ https://bks.thefuture.top/result.php?q=$1&from=fromsearchbox 302
+
+#syb: 时宜搜书
+^https:\/\/duckduckgo.com\/\?q=syb\+([^&]+).+ https://www.shiyisoushu.com/search/$1 302
 
 # paper: connectedpapers
 ^https:\/\/duckduckgo.com\/\?q=paper\+([^&]+).+ https://www.connectedpapers.com/search?q=$1 302
