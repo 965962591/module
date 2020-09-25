@@ -109,7 +109,8 @@
  
  
 # csx: CiteSeerX搜索
-# ft:  findarticles搜索
+# fts:  findarticles搜索
+# mdv： medrxiv搜索
  
  
  
@@ -361,8 +362,12 @@
 #csx(citeSeerX)
 ^https:\/\/duckduckgo.com\/\?q=csx\+([^&]+).+ http://citeseerx.ist.psu.edu/search?q=$1 302
 
-#ft (findarticles)
-^https:\/\/duckduckgo.com\/\?q=ft\+([^&]+).+ http://findarticles.com/find?q=$1 302
+#fts (findarticles)
+^https:\/\/duckduckgo.com\/\?q=fts\+([^&]+).+ http://findarticles.com/find?q=$1 302
+
+# mdv (medrxiv)
+^https:\/\/duckduckgo.com\/\?q=mdv\+([^&]+).+ https://www.medrxiv.org/search/$1 302
+
 
 
 
