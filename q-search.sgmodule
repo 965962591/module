@@ -84,6 +84,7 @@
 
 
 # gdb: 古丁堡图书
+# bk: TheFuture图书搜索
 # linux: linux命令
 # paper: connectedpapers
 # cai: 菜鸟教程
@@ -237,6 +238,9 @@
 
 # gdb: 古丁堡图书
 ^https:\/\/duckduckgo.com\/\?q=gdb\+([^&]+).+ http://www.gutenberg.org/ebooks/search/?query=$1 302
+
+# bk: TheFuture图书搜索
+^https:\/\/duckduckgo.com\/\?q=bk\+([^&]+).+ https://bks.thefuture.top/result.php?q=$1&from=fromsearchbox 302
 
 # paper: connectedpapers
 ^https:\/\/duckduckgo.com\/\?q=paper\+([^&]+).+ https://www.connectedpapers.com/search?q=$1 302
