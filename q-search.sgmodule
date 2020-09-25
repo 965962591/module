@@ -75,10 +75,7 @@
 # adm: 爱动漫(动漫bt资源搜索)
 # ytb: YouTube
 # ph:  PornHub 
-
-# qm: QQ音乐搜索
 # kw: 酷我音乐搜索
-# kg: 酷狗音乐搜索
 # yfs：音范丝搜索
 
 
@@ -355,7 +352,7 @@
 #^https:\/\/duckduckgo.com\/\?q=nm\+([^&]+).+ https://music.163.com/#/search/m/?s=$1 302
 
 #qm(QQ音乐)
-^https:\/\/duckduckgo.com\/\?q=qm\+([^&]+).+ https://y.qq.com/portal/search.html#page=1&searchid=1&remoteplace=txt.yqq.top&t=song&w=$1 302
+#^https:\/\/duckduckgo.com\/\?q=qm\+([^&]+).+ https://y.qq.com/portal/search.html#page=1&searchid=1&remoteplace=txt.yqq.top&t=song&w=$1 302
 
 #kw(酷我音乐)
 ^https:\/\/duckduckgo.com\/\?q=kw\+([^&]+).+ http://m.kuwo.cn/?type=all&catalog=yueku20177&key=$1 302
