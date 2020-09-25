@@ -35,10 +35,10 @@
 # trc: Google 译至中
 # tre: Google 译至英
 # trj: Google 译至日
-# tdc: Deepl  英译中
-# tde：Deepl  中译英
-# tdj: Deepl  中译日
-# tdjc:Deepl  日译中
+# dec: Deepl  英译中
+# dee：Deepl  中译英
+# dej: Deepl  中译日
+# dejc:Deepl  日译中
 
 
 
@@ -193,12 +193,12 @@
 ^https:\/\/duckduckgo.com\/\?q=dec\+([^&]+).+ https://www.deepl.com/translator#en/zh/$1 302
 
 #dee(deepl 中译英)
-^https:\/\/duckduckgo.com\/\?q=dec\+([^&]+).+ https://www.deepl.com/translator#zh/en/$1 302
+^https:\/\/duckduckgo.com\/\?q=dee\+([^&]+).+ https://www.deepl.com/translator#zh/en/$1 302
 
 #dej(deepl 中译日)
 ^https:\/\/duckduckgo.com\/\?q=dej\+([^&]+).+ https://www.deepl.com/translator#zh/ja/$1 302
 
-#dej(deepl 日译中)
+#dejc(deepl 日译中)
 ^https:\/\/duckduckgo.com\/\?q=dejc\+([^&]+).+ https://www.deepl.com/translator#ja/zh/$1 302
 
 # 社区
