@@ -90,6 +90,7 @@
 # mzl: magazinelib(期刊)
 # linux: linux命令
 # paper: connectedpapers
+# fm: tunefind
 # cai: 菜鸟教程
 # kd: 快递查询(加上快递号即可)
 # tq: 天气（彩云天气)
@@ -251,6 +252,9 @@
 
 # bok: b-ok搜书(全)
 ^https:\/\/duckduckgo.com\/\?q=bok\+([^&]+).+ https://b-ok.global/s/$1 302
+
+# fm: tunefind
+^https:\/\/duckduckgo.com\/\?q=fm\+([^&]+).+ https://www.tunefind.com/search/site?q=$1 302
 
 # mzl: magazinelib(期刊)
 ^https:\/\/duckduckgo.com\/\?q=mzl\+([^&]+).+ https://magazinelib.com/?s=$1 302
