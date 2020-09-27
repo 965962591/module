@@ -133,8 +133,9 @@
 #cj: cubejoy(方块游戏平台)
 
 
-#成分
+#成分分析（为我家宝宝准备的）
 #cdna: cosdna(护肤品成分的作用搜索)
+#cpro: cosdna护肤品(品牌的成分及作用搜索)
 
 
  
@@ -484,8 +485,11 @@
 
 
 #成分
-#cdna: cosdna化妆品成分搜索
+#cdna: cosdna护肤品成分搜索
 ^https:\/\/duckduckgo.com\/\?q=cdna\+([^&]+).+ https://m.cosdna.com/chs/stuff.php?q=$1 302
+
+#cpro: cosdna护肤品(品牌的成分及作用搜索)
+^https:\/\/duckduckgo.com\/\?q=cpro\+([^&]+).+ https://m.cosdna.com/chs/product.php?q=$1 302
 
 
 
