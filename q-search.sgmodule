@@ -81,7 +81,7 @@
 # yfs：音范丝搜索
 
 
-
+# api:Devdocs开发文档的搜索(eg: api json)
 # gdb: 古丁堡图书
 # bk: TheFuture图书搜索
 # syb: 时宜搜书
@@ -97,7 +97,8 @@
 # macw: macw搜索(mac软件)
 # gtop: git:logs(github热门资源搜索)
 # whois: 域名所属查询
-# api:Devdocs开发文档的搜索(eg: api json)
+# repo: 越狱插件搜索
+
 
 
 
@@ -292,6 +293,9 @@
 
 # whois: 域名所属查询
 ^https:\/\/duckduckgo.com\/\?q=whois\+([^&]+).+ https://whois.aliyun.com/whois/domain/$1 302
+
+#repo: 越狱插件搜索
+^https:\/\/duckduckgo.com\/\?q=repo\+([^&]+).+ https://www.ios-repo-updates.com/search/?s=$1 302
 
 
 
