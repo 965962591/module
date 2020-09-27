@@ -126,6 +126,17 @@
 
  
  
+#游戏
+#sm: steam
+#wg: wegame
+#ec: epicgame
+#cj: cubejoy(方块游戏平台)
+
+
+
+
+
+ 
 # bi: 必应
 # bd：百度搜索
 # ddg：DuckDuckGo 搜索
@@ -455,6 +466,18 @@
 
 
 
+#游戏
+#sm: steam
+^https:\/\/duckduckgo.com\/\?q=sm\+([^&]+).+ https://store.steampowered.com/search/?term=$1 302
+
+#wg: wegame
+^https:\/\/duckduckgo.com\/\?q=wg\+([^&]+).+ https://www.wegame.com.cn/store/games/mars_vars/search_key_word-$1/sort-4/ 302
+
+#ec: epicgame
+^https:\/\/duckduckgo.com\/\?q=ec\+([^&]+).+ https://www.epicgames.com/store/zh-CN/browse?q=$1 302
+
+#cj: cubejoy
+^https:\/\/duckduckgo.com\/\?q=cj\+([^&]+).+ https://store.cubejoy.com/html/en/store/searchgoods/websearch.html?search=$1 302
 
 
 
