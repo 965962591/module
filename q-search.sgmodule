@@ -115,6 +115,13 @@
 # fts:  findarticles搜索
 # mdv： medrxiv搜索
  
+# 耗材查询
+#xm:  小米耗材查询
+#hw:  华为耗材查询
+#op:  oppo耗材查询
+#vi:  vivo耗材查询
+#plus:一加耗材查询
+
  
  
 # bi: 必应
@@ -414,6 +421,20 @@
 
 #dl (大力网盘搜索)
 ^https:\/\/duckduckgo.com\/\?q=dl\+([^&]+).+ https://www.dalipan.com/search?keyword=$1 302
+
+
+
+
+#耗材
+
+#xm: 小米耗材
+^https:\/\/duckduckgo.com\/\?q=xm\+([^&]+).+ https://www.mi.com/service/materialprice/ 302
+
+
+
+
+
+
 
 
 
