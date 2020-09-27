@@ -133,7 +133,8 @@
 #cj: cubejoy(方块游戏平台)
 
 
-
+#成分
+#cdna: cosdna(护肤品成分的作用搜索)
 
 
  
@@ -479,6 +480,12 @@
 #cj: cubejoy
 ^https:\/\/duckduckgo.com\/\?q=cj\+([^&]+).+ https://store.cubejoy.com/html/en/store/searchgoods/websearch.html?search=$1 302
 
+
+
+
+#成分
+#cdna: cosdna化妆品成分搜索
+^https:\/\/duckduckgo.com\/\?q=cdna\+([^&]+).+ https://m.cosdna.com/chs/stuff.php?q=$1 302
 
 
 
