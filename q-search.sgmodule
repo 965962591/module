@@ -136,6 +136,7 @@
 #成分分析（为我家宝宝准备的）
 #cdna: cosdna(护肤品成分的作用搜索)
 #cpro: cosdna护肤品(品牌的成分及作用搜索)
+#zyl: 找原料(数据比较全，但是偏向全类型)
 
 
  
@@ -490,6 +491,9 @@
 
 #cpro: cosdna护肤品(品牌的成分及作用搜索)
 ^https:\/\/duckduckgo.com\/\?q=cpro\+([^&]+).+ https://m.cosdna.com/chs/product.php?q=$1 302
+
+#zyl: zhaoyl(找原料，需要登录，数据全)
+^https:\/\/duckduckgo.com\/\?q=zyl\+([^&]+).+ http://www.zhaoyl.com/material/search.html?q=$1 302
 
 
 
