@@ -489,7 +489,7 @@
 #成分
 
 #gyj
-^https:\/\/duckduckgo.com\/\?q=gyj\+([^&]+).+ http://ftba.nmpa.gov.cn:8181/ftban/fw.jsp/ 302
+^https:\/\/duckduckgo.com\/\?q=gyj\+([^&]+).+ http://ftba.nmpa.gov.cn:8181/ftban/fw.jsp 302
 
 #cdna: cosdna护肤品成分搜索
 ^https:\/\/duckduckgo.com\/\?q=cdna\+([^&]+).+ https://m.cosdna.com/chs/stuff.php?q=$1 302
