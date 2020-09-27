@@ -65,6 +65,7 @@
 # pdd: 拼爹爹
 # gmdq: 国美
 # dd: 当当
+# yj: 宜家
 # mt: 美团
 # elm: 饿了么
 # didi: 滴滴出行
@@ -115,12 +116,12 @@
 # fts:  findarticles搜索
 # mdv： medrxiv搜索
  
-# 耗材查询
-#xm:  小米耗材查询
-#hw:  华为耗材查询
-#op:  oppo耗材查询
-#vi:  vivo耗材查询
-#plus:一加耗材查询
+# 备件价格查询
+#xm:  小米备件查询
+#hw:  华为备件查询
+#op:  oppo备件查询
+#vi:  vivo备件查询
+#plus:一加备件查询
 
  
  
@@ -340,6 +341,9 @@
 #dd: 当当
 ^https:\/\/duckduckgo.com\/\?q=dd\+([^&]+).+ http://search.m.dangdang.com/search.php?keyword=$1 302
 
+#yj: 宜家
+^https:\/\/duckduckgo.com\/\?q=yj\+([^&]+).+ https://www.ikea.cn/cn/zh/search/products/?q=$1 302
+
 #mt: 美团
 ^https:\/\/duckduckgo.com\/\?q=mt\+([^&]+).+ https://h5.waimai.meituan.com/waimai/mindex/searchresults?queryType=12002&keyword=$1&entranceId=0&qwTypeId=11002&mode=search 302
 
@@ -425,13 +429,25 @@
 
 
 
-#耗材
+#备件
 
-#xm: 小米耗材
+#xm: 小米备件
 ^https:\/\/duckduckgo.com\/\?q=xm\+([^&]+).+ https://www.mi.com/service/materialprice/ 302
 
+#hw: 华为备件
+^https:\/\/duckduckgo.com\/\?q=hw\+([^&]+).+ https://consumer.huawei.com/cn/support/sparepart-price/ 302
 
+#oppo: oppo备件
+^https:\/\/duckduckgo.com\/\?q=op\+([^&]+).+ https://support.oppo.com/cn/spare-parts-price/ 302
 
+#vi: vivo备件
+^https:\/\/duckduckgo.com\/\?q=vi\+([^&]+).+ http://www.vivo.com.cn/service/accessory/ 302
+
+#plus: 一加备件
+^https:\/\/duckduckgo.com\/\?q=plus\+([^&]+).+ https://www.oneplus.com/cn/support/repair-pricing/ 302
+
+#jg: 坚果备件
+^https:\/\/duckduckgo.com\/\?q=jg\+([^&]+).+ https://www.smartisan.com/support/#/serviceprice/ 302
 
 
 
