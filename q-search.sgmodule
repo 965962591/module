@@ -226,7 +226,7 @@
 ^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
 
 # jshu: 简书
-^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://www.jianshu.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=jshu\+([^&]+).+ https://www.jianshu.com/search?q=$1 302
 
 # blog: 博客园
 ^https:\/\/duckduckgo.com\/\?q=blog\+([^&]+).+ https://zzk.cnblogs.com/s?w=$1 302
