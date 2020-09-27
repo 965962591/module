@@ -50,6 +50,7 @@
 # ssp: 少数派
 # tieba: 百度贴吧搜索（tieba 吧名）
 # csdn: CSDN
+# jshu:简书
 # blog: 博客园搜索
 # yh: 油猴搜索
 
@@ -223,6 +224,9 @@
 
 # csdn: CSDN
 ^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
+
+# jshu: 简书
+^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://www.jianshu.com/search?q=$1 302
 
 # blog: 博客园
 ^https:\/\/duckduckgo.com\/\?q=blog\+([^&]+).+ https://zzk.cnblogs.com/s?w=$1 302
