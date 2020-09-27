@@ -95,6 +95,7 @@
 # om: ourmacs搜索(mac软件)
 # macw: macw搜索(mac软件)
 # gtop: git:logs(github热门资源搜索)
+# whois: 域名所属查询
 # api:Devdocs开发文档的搜索(eg: api json)
 
 
@@ -280,6 +281,12 @@
 
 # gtop: git:logs热门项目搜索
 ^https:\/\/duckduckgo.com\/\?q=gtop\+([^&]+).+ https://www.gitlogs.com/most_popular?topic=$1 302
+
+# whois: 域名所属查询
+^https:\/\/duckduckgo.com\/\?q=whois\+([^&]+).+ https://whois.aliyun.com/whois/domain/$1 302
+
+
+
 
 
 #字幕搜索
