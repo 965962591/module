@@ -134,6 +134,7 @@
 
 
 #成分分析（为我家宝宝准备的）
+#gyj: 国家食品药品监督管理总局化妆品（品牌成分查询）
 #cdna: cosdna(护肤品成分的作用搜索)
 #cpro: cosdna护肤品(品牌的成分及作用搜索)
 #zyl: 找原料(数据比较全，但是偏向全类型)
@@ -486,6 +487,10 @@
 
 
 #成分
+
+#gyj
+^https:\/\/duckduckgo.com\/\?q=gyj\+([^&]+).+ http://ftba.nmpa.gov.cn:8181/ftban/fw.jsp/ 302
+
 #cdna: cosdna护肤品成分搜索
 ^https:\/\/duckduckgo.com\/\?q=cdna\+([^&]+).+ https://m.cosdna.com/chs/stuff.php?q=$1 302
 
