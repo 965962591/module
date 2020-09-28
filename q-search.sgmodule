@@ -511,6 +511,9 @@
 #gkk: 网易公开课
 ^https:\/\/duckduckgo.com\/\?q=gkk\+([^&]+).+ https://open.163.com/newview/search/$1 302
 
+# bjg:比一比价格（搜索商品名）
+^https:\/\/duckduckgo.com\/\?q=bjg\+([^&]+).+ http://www.b1bj.com/s.aspx?key=$1 302
+
 
 # 默认搜索
 # bi: 必应
