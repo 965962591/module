@@ -505,6 +505,11 @@
 
 
 
+#mooc: 慕课
+^https:\/\/duckduckgo.com\/\?q=mooc\+([^&]+).+ https://www.icourse163.org/search.htm?search=$1 302
+
+
+
 
 # 默认搜索
 # bi: 必应
