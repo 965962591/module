@@ -521,7 +521,7 @@
 ^https:\/\/duckduckgo.com\/\?q=bj2\+([^&]+).+ https://tool.manmanbuy.com/m/disSitePro.aspx?c_from=m&url=$1 302
 
 # bj3:
-^https:\/\/duckduckgo.com\/\?q=bj2\+([^&]+).+ https://tool.manmanbuy.com/m/lsjgcx.aspx?siteurl=$1 302
+^https:\/\/duckduckgo.com\/\?q=bj3\+([^&]+).+ https://tool.manmanbuy.com/m/lsjgcx.aspx?siteurl=$1 302
 
 
 
