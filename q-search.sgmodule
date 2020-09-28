@@ -511,7 +511,8 @@
 #gkk: 网易公开课
 ^https:\/\/duckduckgo.com\/\?q=gkk\+([^&]+).+ https://open.163.com/newview/search/$1 302
 
-
+#gj
+^https:\/\/duckduckgo.com\/\?q=gj\+([^&]+).+ https://earth.google.com/web/search/$1 302
 
 # 默认搜索
 # bi: 必应
