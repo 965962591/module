@@ -508,6 +508,8 @@
 #mooc: 慕课
 ^https:\/\/duckduckgo.com\/\?q=mooc\+([^&]+).+ https://www.icourse163.org/search.htm?search=$1 302
 
+#gkk: 网易公开课
+^https:\/\/duckduckgo.com\/\?q=gkk\+([^&]+).+ https://open.163.com/newview/search/$1 302
 
 
 
