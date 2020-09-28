@@ -514,14 +514,8 @@
 # bjg:比一比价格（搜索商品名）
 ^https:\/\/duckduckgo.com\/\?q=bjg\+([^&]+).+ http://www.b1bj.com/s.aspx?key=$1 302
 
-# bj1: 查询历史价格1
-^https:\/\/duckduckgo.com\/\?q=bj1\+([^&]+).+ https://tool.manmanbuy.com/m/lsjgcx.aspx?url=$1 302
-
-# bj2:查询历史价格2
-^https:\/\/duckduckgo.com\/\?q=bj2\+([^&]+).+ https://tool.manmanbuy.com/m/disSitePro.aspx?c_from=m&url=$1 302
-
-# bj3:
-^https:\/\/duckduckgo.com\/\?q=bj3\+([^&]+).+ https://tool.manmanbuy.com/m/lsjgcx.aspx?siteurl=$1 302
+# bj-1:
+^https:\/\/duckduckgo.com\/\?q=bj-1\+([^&]+).+ https://tool.manmanbuy.com/m/lsjgcx.aspx?siteurl=$1 302
 
 
 
