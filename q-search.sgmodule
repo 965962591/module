@@ -517,8 +517,11 @@
 # bj-1:
 ^https:\/\/duckduckgo.com\/\?q=bj-1\+([^&]+).+ https://tool.manmanbuy.com/m/lsjgcx.aspx?siteurl=$1 302
 
+# pix p站搜图
+^https:\ /duckduckgo.com\/\?q=pix\+([^&]+).+ https://www.pixiv.net/tags/$1 302
 
-
+# pic: p站搜图
+^https:\ /duckduckgo.com\/\?q=pic\+([^&]+).+ https://m.pixivic.com/search/illusts?tag=$1 302
 
 # 默认搜索
 # bi: 必应
